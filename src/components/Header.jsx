@@ -316,7 +316,7 @@ const Header = () => {
                     </div>
                 </a>
                 <a href="https://yas.gov.in/" target="_blank" rel="noreferrer">
-                    <div className="w-[100px] md:w-[200px] mix-blend-multiply">
+                    <div className="w-[90px] md:w-[200px] mix-blend-multiply">
                         <img
                             src="/logo/Ministry.png"
                             alt="NSS Logo"
@@ -329,7 +329,7 @@ const Header = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <div className="w-[70px] md:w-[230px] mix-blend-multiply">
+                    <div className="w-[100px] md:w-[230px] mix-blend-multiply">
                         <img
                             src="/logo/Amity.png"
                             alt="Amity Logo"
