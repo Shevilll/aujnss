@@ -1,16 +1,28 @@
-import React from "react";
+import React, { Suspense } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { routes } from "./routes";
+import LoadingSpinner from "./components/LoadingSpinner";
 
-function App() {
+const App = () => {
     return (
-        <>
-            <div
-                className="h-[100vh] w-full flex items-center justify-center"
-                id="main"
-            >
-                <p>Coming Soon</p>
-            </div>
-        </>
+        <BrowserRouter>
+            <Header />
+            <Suspense fallback={<LoadingSpinner />}>
+                <Routes>
+                    {routes.map((route, index) => (
+                        <Route
+                            key={index}
+                            path={route.path}
+                            element={route.element}
+                        />
+                    ))}
+                </Routes>
+            </Suspense>
+            <Footer />
+        </BrowserRouter>
     );
-}
+};
 
 export default App;
