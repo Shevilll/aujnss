@@ -6,7 +6,7 @@ const Contact = () => {
         {
             icon: <User className="w-8 h-8" />,
             title: "Name",
-            value: "Mr Sumeer Ranjan",
+            value: "Mr. Sumeer Ranjan",
             detail: "NSS Coordinator",
         },
         {

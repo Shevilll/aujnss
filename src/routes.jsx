@@ -29,7 +29,7 @@ export const routes = [
     { path: "/program-officers", element: <Officers /> },
     { path: "/media", element: <Media /> },
     { path: "/videos", element: <Videos /> },
-    { path: "/others", element: <Others /> },
+    { path: "/events", element: <Others /> },
     { path: "/regular", element: <Regular /> },
     { path: "/special-camp", element: <Special /> },
     { path: "/reports", element: <Report /> },

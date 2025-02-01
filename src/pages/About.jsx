@@ -19,11 +19,12 @@ const About = () => {
                 NSS in Amity University Jharkhand
             </p>
             <p className="text-justify text-[20px] text-[#222222] font-light">
-                On May 1st, 2024, Amity University Jharkhand was given one
-                self-financed unit. Since that time, over 450 students have
-                signed up to serve as NSS volunteers. The NSS Unit at AUJ
-                undertake a number of initiatives that assist both the students
-                and the community where they work.
+                On May 1, 2024, Amity University Jharkhand established a
+                self-financed unit. Since then, more than 450 students have
+                enrolled as National Service Scheme (NSS) volunteers. The NSS
+                Unit at AUJ actively engages in various initiatives aimed at
+                benefiting both the student community and the broader society in
+                which they operate.
             </p>
         </div>
     );

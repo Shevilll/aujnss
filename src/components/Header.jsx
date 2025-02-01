@@ -38,7 +38,7 @@ const Header = () => {
             items: [
                 { label: "IN MEDIA", path: "/media" },
                 { label: "VIDEOS", path: "/videos" },
-                { label: "OTHERS", path: "/others" },
+                { label: "EVENTS AND ACTIVITES", path: "/events" },
             ],
         },
         {
@@ -307,9 +307,18 @@ const Header = () => {
         <header ref={headerRef}>
             <div className="w-full h-[80px] md:h-[120px] flex justify-between bg-[#F7F5F5] px-[10px] space-x-2 md:px-[30px] lg:px-[60px] items-center">
                 <a href="https://nss.gov.in/" target="_blank" rel="noreferrer">
-                    <div className="w-[180px] md:w-[300px] mix-blend-multiply">
+                    <div className="w-[100px] md:w-[280px] mix-blend-multiply">
                         <img
                             src="/logo/NSSFULL.png"
+                            alt="NSS Logo"
+                            className="w-full h-auto"
+                        />
+                    </div>
+                </a>
+                <a href="https://yas.gov.in/" target="_blank" rel="noreferrer">
+                    <div className="w-[100px] md:w-[200px] mix-blend-multiply">
+                        <img
+                            src="/logo/Ministry.png"
                             alt="NSS Logo"
                             className="w-full h-auto"
                         />
@@ -320,7 +329,7 @@ const Header = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <div className="w-[120px] md:w-[250px] mix-blend-multiply">
+                    <div className="w-[70px] md:w-[230px] mix-blend-multiply">
                         <img
                             src="/logo/Amity.png"
                             alt="Amity Logo"
