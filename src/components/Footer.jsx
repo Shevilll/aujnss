@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="h-[80px] w-full bg-[#1C2025] flex items-center justify-center z-10 flex-col">
       <p className="text-[#D4DAE3] text-center px-[10px]">
-        Copyright © 2025 - Amity University Jhakhand - All Rights Reserved
+        Copyright © 2025 - Amity University Jharkhand - All Rights Reserved
       </p>
       <p className="text-[#D4DAE3] text-center px-[10px]">
         Website Designed & Developed by{" "}
