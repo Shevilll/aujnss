@@ -3,59 +3,11 @@
 @tailwind utilities;
 
 * {
-    font-family: "Poppins";
-    user-select: none;
+    font-family: "Open Sans", sans-serif;
     -webkit-user-drag: none;
-    cursor: none;
 }
-
+html,
 body {
-    background-color: #f5f5f5;
-    cursor: none;
-}
-
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-#menu::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
-#menu::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #152c49;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #eec446;
-}
-
-html.lenis,
-html.lenis body {
-    height: auto;
-}
-
-.lenis.lenis-smooth {
-    scroll-behavior: auto !important;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-    overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-    pointer-events: none;
+    overscroll-behavior: none;
+    height: 100%;
 }

@@ -1,48 +1,28 @@
-import React, { useEffect } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Lenis from "lenis";
-import Hero from "./Hero";
-import NavBar from "./components/NavBar";
-import Cursor from "./components/Cursor";
-import About from "./About";
-import Gallery from "./Gallery";
-import Contact from "./Contact";
+import React, { Suspense } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { routes } from "./routes";
+import LoadingSpinner from "./components/LoadingSpinner";
 
-function App() {
-    useEffect(() => {
-        window.lenis = new Lenis({
-            syncTouch: true,
-            touchMultiplier: 1.5,
-        });
-
-        window.lenis.on("scroll", ScrollTrigger.update);
-
-        gsap.ticker.add((time) => {
-            window.lenis.raf(time * 50);
-        });
-
-        gsap.ticker.lagSmoothing(0);
-
-        return () => {
-            window.lenis.destroy();
-            window.lenis = null;
-        };
-    }, []);
-
-    const deviceWidth = window.innerWidth;
+const App = () => {
     return (
-        <>
-            {deviceWidth > 768 && <Cursor />}
-            <div className="h-[2500vh] w-full" id="main">
-                <NavBar />
-                <Hero />
-                <About />
-                <Gallery />
-                <Contact />
-            </div>
-        </>
+        <BrowserRouter>
+            <Header />
+            <Suspense fallback={<LoadingSpinner />}>
+                <Routes>
+                    {routes.map((route, index) => (
+                        <Route
+                            key={index}
+                            path={route.path}
+                            element={route.element}
+                        />
+                    ))}
+                </Routes>
+            </Suspense>
+            <Footer />
+        </BrowserRouter>
     );
-}
+};
 
 export default App;
