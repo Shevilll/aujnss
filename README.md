@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🌱 Amity NSS
+# Amity NSS
 
 **The official website for the National Service Scheme (NSS) unit of Amity University** — a hub for NSS activities, events, aims, and volunteer opportunities, fostering social responsibility and community service among students.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-aujnss.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aujnss.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-aujnss.theahmadfaraz.com-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aujnss.theahmadfaraz.com/)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
@@ -15,7 +15,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **About NSS**: Detailed information about the National Service Scheme, its motto, and benefits.
 - **Aims & Objectives**: Insight into the core goals and mission of the NSS unit.
@@ -34,7 +34,7 @@
     - **How to Join**: Step-by-step guide on the enrollment process.
 - **Contact**: Information to get in touch with the NSS unit.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 This project is built with a modern frontend stack ensuring performance and a smooth user experience:
 
@@ -46,7 +46,7 @@ This project is built with a modern frontend stack ensuring performance and a sm
 - **[React Router](https://reactrouter.com/)**: For client-side routing.
 - **[Lucide React](https://lucide.dev/)**: Beautiful & consistent icons.
 
-## 🚀 Installation and Usage
+## Installation and Usage
 
 Follow these steps to set up the project locally:
 
@@ -67,23 +67,23 @@ Follow these steps to set up the project locally:
     ```
     The application will be available at `http://localhost:5173` (or the port shown in your terminal).
 
-## 📜 Scripts
+## Scripts
 
 - `npm run dev`: Starts the development server.
 - `npm run build`: Builds the app for production.
 - `npm run lint`: Runs ESLint to check for code quality issues.
 - `npm run preview`: Locally previews the production build.
 
-## 🌐 Deployment
+## Deployment
 
-The site is deployed on **[Vercel](https://vercel.com/)** and available live at **[aujnss.vercel.app](https://aujnss.vercel.app)**. Pushes to the default branch trigger automatic production deployments.
+The site is deployed on **[Vercel](https://vercel.com/)** and available live at **[aujnss.theahmadfaraz.com](https://aujnss.theahmadfaraz.com/)**. Pushes to the default branch trigger automatic production deployments.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to open an issue or submit a Pull Request.
 
 ---
 
 <div align="center">
-Built with 💚 for the NSS unit of Amity University.
+Built for the NSS unit of Amity University.
 </div>
